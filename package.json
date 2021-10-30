@@ -1,6 +1,6 @@
 {
   "name": "trimfandango",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Advanced trimming of strings by providing lists of characters or full strings.",
   "main": "trimfandango.js",
   "scripts": {
