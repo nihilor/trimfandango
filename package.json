@@ -2,9 +2,13 @@
   "name": "trimfandango",
   "version": "1.0.0",
   "description": "Advanced trimming of strings by providing lists of characters or full strings.",
-  "main": "index.js",
+  "main": "trimfandango.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nihilor/trimfandango.git"
   },
   "keywords": ["trim", "fandango", "string", "pure", "helper", "javascript"],
   "author": {
@@ -12,5 +16,9 @@
     "email": "me@mlu.io",
     "url": "https://mlu.io"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nihilor/trimfandango/issues"
+  },
+  "homepage": "https://github.com/nihilor/trimfandango#readme"
 }
