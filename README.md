@@ -36,6 +36,8 @@ Change the trimming behaviour by optionally providing a `charlist`. The `charlis
 If you provide an array of single characters, all matched characters in any order will be removed from the beginning and the end of the string. You can either provide normal characters, unicode or specific regular expression tokens. In case of tokens take care that you double-backslash them, i.e. `\\s` instead of `\s`.
 
 ```js
+const trimFandango = require('trimfandango')
+
 console.log(
     trimFandango(
         '#55  ### #55 55§5   FOOBAR   # 55§&    ',
@@ -55,6 +57,8 @@ FOOBAR
 If you provide a string of characters - or any other value that converts to a string - the string and its possible subsets will removed from both ends of the `text`.
 
 ```js
+const trimFandango = require('trimfandango')
+
 console.log(
     trimFandango(
         '12FOOBAR23',
