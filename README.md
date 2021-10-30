@@ -72,6 +72,7 @@ FOOBAR
 
 1. trimfandango is heavily inspired by the `trim()` function of PHP.
 2. The name is a reminiscence to Grim Fandango, authored by the awesome [Tim Schafer](https://twitter.com/TimOfLegend).
+3. This is a pure package without any dependencies, excutable in the frontend and backend.
 
 ## LICENSE
 
