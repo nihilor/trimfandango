@@ -1,0 +1,16 @@
+{
+  "name": "trimfandango",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["trim", "fandango", "string", "pure", "helper", "javascript"],
+  "author": {
+    "name": "Mark Lubkowitz",
+    "email": "me@mlu.io",
+    "url": "https://mlu.io"
+  },
+  "license": "MIT"
+}
