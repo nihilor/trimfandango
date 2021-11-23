@@ -26,6 +26,7 @@ The `trimFandango()` function removes a set of characters from both ends of a st
 * `0x0B`, ASCII 11, vertical tab
 * `0x0D`, ASCII 13, carriage return
 * `0x20`, ASCII 32, whitespace
+* `0xA0`, ASCII 160, no-break space
 
 ## Description
 
