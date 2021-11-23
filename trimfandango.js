@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 module.exports = function trimFandango (text, charlist = ["\0", "\t", "\n", "\x0B", "\r", " "]) {
+    text = String(text)
     
     //  charlist == array: every element of the list left and right will be removed
     let reTrimLeft = null,
