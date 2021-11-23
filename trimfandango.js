@@ -7,7 +7,7 @@ module.exports = function trimFandango (text, charlist = ["\0", "\t", "\n", "\x0
     let reTrimLeft = null,
     reTrimRight = null
     if (Array.isArray(charlist)) {
-        let reCharlist  = `[${charlist.join()}]+`
+        let reCharlist  = `[${charlist.join('|')}]+`
         reTrimLeft      = new RegExp('^' + reCharlist, 'iu')
         reTrimRight     = new RegExp(reCharlist + '$', 'iu')
     } else {
