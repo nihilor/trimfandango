@@ -1,6 +1,6 @@
 {
   "name": "trimfandango",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Advanced trimming of strings by providing lists of characters or full strings.",
   "main": "trimfandango.js",
   "scripts": {
@@ -10,7 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/nihilor/trimfandango.git"
   },
-  "keywords": ["trim", "fandango", "string", "pure", "helper", "javascript"],
+  "keywords": [
+    "trim",
+    "fandango",
+    "string",
+    "pure",
+    "helper",
+    "javascript"
+  ],
   "author": {
     "name": "Mark Lubkowitz",
     "email": "me@mlu.io",
@@ -20,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/nihilor/trimfandango/issues"
   },
-  "homepage": "https://github.com/nihilor/trimfandango#readme"
+  "homepage": "https://github.com/nihilor/trimfandango#readme",
+  "dependencies": {
+    "vaccinatejs": "^1.0.1"
+  }
 }
